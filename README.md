@@ -1,13 +1,15 @@
 # Example-Discord-Bot
-A example of a Discord.js bot using dchandler.js
+A simple example of a [Discord.js](https://discord.js.org/#/) bot using [DCHandler.js](https://www.npmjs.com/package/dchandler.js)!
 
 ## To Get started
-Clone or download this repo to a folder.
+Lets get started!
+
+First clone or download this repo to a folder.
 
 ### Bot token
 Next get a bot token from [Discord Developer Portal](https://discord.com/developers/applications/).
 
-Create a new Application, then add a bot. 
+Create a new Application, add a bot. 
 
 Then copy the token from the added bot. 
 
@@ -17,32 +19,33 @@ client.login('') // Token goes here
 ```
 
 ### Install node_modules
-Install node_modules.
-
 ```$
 npm i
 ```
-
 ### Start the bot
-Start up the bot!
-
 ```$
 node index.js
 ```
-For further bot start information use: node index.js --debug or npm run dev
+For Debug info
+```$
+node index.js --debug
+```
+```$
+npm run dev
+```
 
 ### Boom shes running!
-Good job! You now have a working discord-bot!
+Good job! You now have a working Discord-bot!
 
-Feel free to Change the prefix in .env
-Add or remove commands from the commands folder.
-Customize to ur 💖's desire! 
+- Feel free to Change the prefix in .env
+- Add or remove commands from the commands folder.
+- Customize to ur 💖's desire! 
 
-## dcHandler.js
-[github](https://github.com/macen648/DCHandler.js)
-[npm](https://www.npmjs.com/package/dchandler.js)
+## DCHandler.js
+- [github](https://github.com/macen648/DCHandler.js)
+- [npm](https://www.npmjs.com/package/dchandler.js)
 
-See the dcHandler.js [README.md](https://github.com/macen648/DCHandler.js#README) for documentation.
+See the [DCHandler.js](https://www.npmjs.com/package/dchandler.js) [README.md](https://github.com/macen648/DCHandler.js#README) for documentation.
 
 ## Extra Resources
 - Discord documentation:
